@@ -68,4 +68,3 @@ m3_poisson <- glm(adl ~ indager + indsex + smok2 + ed2 +
                   family = poisson)
 # Compare this to the ZIP equivalent
 vuong(m3_poisson, m3)
-
